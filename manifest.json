@@ -1,0 +1,25 @@
+{
+  "short_name": "24Setup",
+  "name": "24Setup IT solution",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "800x800"
+    },
+    {
+      "src": "logo-full.png",
+      "type": "image/png",
+      "sizes": "1600x1272"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

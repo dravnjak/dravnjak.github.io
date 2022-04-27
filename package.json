@@ -6,6 +6,10 @@
     "Mirko Ravnjak <miravnjak@24setup.com>",
     "Marijana Ravnjak <maravnjak@24setup.com>"
   ],
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/dravnjak/dravnjak.github.io.git"
+  },
   "description": "This is official 24setup company page.",
   "author": {
     "name" : "Damjan Ravnjak",

@@ -2,6 +2,10 @@
   "name": "24setup",
   "version": "0.1.0",
   "private": true,
+  "contributors": [
+    "Mirko Ravnjak <miravnjak@24setup.com>",
+    "Marijana Ravnjak <maravnjak@24setup.com>"
+  ],
   "description": "This is official 24setup company page.",
   "author": {
     "name" : "Damjan Ravnjak",

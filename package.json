@@ -12,6 +12,10 @@
     "email" : "damjan@24setup.com",
     "url" : "https://github.com/dravnjak"
   },
+  "bugs": {
+    "url" : "https://github.com/dravnjak/dravnjak.github.io/issues",
+    "email" : "issues@24setup.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

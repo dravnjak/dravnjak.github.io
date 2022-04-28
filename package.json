@@ -1,7 +1,8 @@
-{
+{ 
   "name": "24setup",
   "version": "0.0.1",
   "private": true,
+  "homepage":"https://24setup.com",
   "contributors": [
     "Mirko Ravnjak <miravnjak@24setup.com>",
     "Marijana Ravnjak <maravnjak@24setup.com>"

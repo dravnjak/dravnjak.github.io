@@ -1,8 +1,15 @@
-{ 
+{
   "name": "24setup",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "description": "This is official 24setup company page.",
+  "keywords": ["development", "consultant", "organization"],
   "homepage":"https://24setup.com",
+  "author": {
+    "name" : "Damjan Ravnjak",
+    "email" : "damjan@24setup.com",
+    "url" : "https://github.com/dravnjak"
+  },
   "contributors": [
     "Mirko Ravnjak <miravnjak@24setup.com>",
     "Marijana Ravnjak <maravnjak@24setup.com>"
@@ -11,31 +18,25 @@
     "type": "git",
     "url": "https://github.com/dravnjak/dravnjak.github.io.git"
   },
-  "description": "This is official 24setup company page.",
-  "author": {
-    "name" : "Damjan Ravnjak",
-    "email" : "damjan@24setup.com",
-    "url" : "https://github.com/dravnjak"
-  },
-  "keywords": ["development", "consultant", "organization"],
   "bugs": {
     "url" : "https://github.com/dravnjak/dravnjak.github.io/issues",
     "email" : "issues@24setup.com"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
   },
   "eslintConfig": {
     "extends": [

@@ -1,5 +1,6 @@
-import './Application.css';
+import React from "react";
 import Header from "../components/Header";
+import './Application.css';
 
 function Application() {
   return (

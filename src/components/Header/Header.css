@@ -1,0 +1,31 @@
+.logo-full {
+
+}
+
+.logo {
+  display: none;
+}
+
+.line {
+  border-top: 1px solid #fff;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+@media (min-width: 768px) {
+  .logo-full {
+    display: none;
+  }
+
+  .logo {
+
+    display: initial;
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+.bottom-area {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.bottom-area h3,
+.bottom-area p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .bottom-area {
+        bottom: 3rem;
+        right: 3rem;
+    }
+}

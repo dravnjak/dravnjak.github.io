@@ -1,6 +1,11 @@
 import React from "react";
+
 import Header from "../components/Header";
+import ContactUs from "../components/ContactUs";
+import About from "../components/About";
+
 import './Application.css';
+
 
 function Application() {
   return (
@@ -9,21 +14,8 @@ function Application() {
         <div className="hero-area">
           <div className="text-right text-area">
             <Header />
-            <h2>Our Mission</h2>
-            <p className="opacity-75">
-              Dedication to your success.
-            </p>
-            <h2>Our Process</h2>
-            <p className="opacity-75">
-              Before creation, there's thinking.<br/>
-              Our process is sharp and let us craft the best quality.
-            </p>
-            <div className="bottom-area">
-              <h3>Contact us</h3>
-              <p className="opacity-75">
-                <a href="mailto:damjan@24setup.com">office@24setup.com</a>
-              </p>
-            </div>
+            <About />
+            <ContactUs />
           </div>
         </div>
       </div>

@@ -6,22 +6,22 @@ import './About.styles.js'
 
 import styles from './About.styles'
 
-const useStyles = createUseStyles(styles, { name: 'About' }) 
+const useStyles = createUseStyles(styles, { name: 'About' })
 
 const About = () => {
 
   const classes = useStyles()
-  
+
   return (
     <div>
       <h2>Our Mission</h2>
       <p className={classes.opacity75}>
-                Dedication to your success.
+        Dedication to your success.
       </p>
       <h2>Our Process</h2>
       <p className={classes.opacity75}>
-                Before creation, there&apos;s thinking.<br/>
-                Our process is sharp and let us craft the best quality.
+        Before creation, there&apos;s thinking.<br />
+        Our process is sharp and let us craft the best quality.
       </p>
     </div>
   )

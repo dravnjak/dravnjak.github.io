@@ -18,8 +18,7 @@ export default {
   opacity75: {
     opacity: '0.75',
   },
-
-  '&@media(min - width: 768px)': {
+  '@media(min-width: 768px)': {
     logoFull: {
       display: 'none',
     },

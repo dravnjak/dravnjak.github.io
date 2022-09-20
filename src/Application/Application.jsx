@@ -17,7 +17,7 @@ const useStyles = createUseStyles(styles, { name: 'Application' })
 function Application() {
   const classes = useStyles()
   return (
-    <div className={classes.home}  >
+    <div>
       <div className={classes.hero} style={{ backgroundImage: 'url("hero.png")' }}>
         <div className={classes.heroArea}>
           <div className={classNames(classes.textRight, classes.textArea)}>

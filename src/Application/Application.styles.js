@@ -1,13 +1,4 @@
 export default {
-  home: {
-    fontFamily: 'Montserrat' & 'sansSerif',
-    color: '#ffffff',
-    margin: '0'
-  },
-
-  body: {
-
-  },
 
   title: {
     color: '#444f60 !important',

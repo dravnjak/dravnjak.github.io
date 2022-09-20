@@ -25,18 +25,41 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "cross-env NODE_ENV=commonjs NODE_PATH=src/ BABEL_ENV=development BABEL_PATH=src/ jest --no-cache",
+    "test:updateSnapshot": "cross-env NODE_ENV=commonjs NODE_PATH=src/ BABEL_ENV=development BABEL_PATH=src/ jest --no-cache --updateSnapshot",
+    "test:coverage": "cross-env NODE_ENV=commonjs NODE_PATH=src/ BABEL_ENV=development BABEL_PATH=src/ jest --coverage",
+    "test:coverage-ci": "cross-env NODE_ENV=commonjs NODE_PATH=src/ BABEL_ENV=development BABEL_PATH=src/ jest --ci --reporters=default --reporters=jest-junit",
+    "lint": "eslint --ext .js,.jsx src"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "classnames": "^2.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "react-jss": "^10.9.0",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10"
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.2.1",
+    "babel-jest": "^29.0.1",
+    "babel-plugin-inline-svg": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "eslint": "8.22.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.7.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-testing-library": "^5.6.0",
+    "jest": "^27.5.1",
+    "prop-types": "^15.8.1",
+    "react-test-renderer": "^18.2.0"
   },
   "eslintConfig": {
     "extends": [

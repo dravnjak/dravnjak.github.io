@@ -6277,7 +6277,7 @@ jss-preset-default@10.9.2:
     jss-plugin-template "10.9.2"
     jss-plugin-vendor-prefixer "10.9.2"
 
-jss@10.9.2, jss@^10.9.2:
+jss@10.9.2:
   version "10.9.2"
   resolved "https://registry.yarnpkg.com/jss/-/jss-10.9.2.tgz#9379be1f195ef98011dfd31f9448251bd61b95a9"
   integrity sha512-b8G6rWpYLR4teTUbGd4I4EsnWjg7MN0Q5bSsjKhVkJVjhQDy2KzkbD2AW3TuT0RYZVmZZHKIrXDn6kjU14qkUg==

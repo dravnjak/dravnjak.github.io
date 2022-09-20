@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react'
 
-import Header from "../components/Header";
-import ContactUs from "../components/ContactUs";
-import About from "../components/About";
+import Header from '../components/Header'
+import ContactUs from '../components/ContactUs'
+import About from '../components/About'
 
-import './Application.css';
-
+import './Application.css'
 
 function Application() {
   return (
@@ -20,7 +19,7 @@ function Application() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Application;
+export default Application

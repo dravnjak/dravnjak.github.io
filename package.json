@@ -3,24 +3,28 @@
   "version": "0.0.1",
   "private": false,
   "description": "This is official 24setup company page.",
-  "keywords": ["development", "consultant", "organization"],
-  "homepage":"https://24setup.com",
+  "keywords": [
+    "development",
+    "consultant",
+    "organization"
+  ],
+  "homepage": "https://24setup.com",
   "author": {
-    "name" : "Damjan Ravnjak",
-    "email" : "damjan@24setup.com",
-    "url" : "https://github.com/dravnjak"
+    "name": "Damjan Ravnjak",
+    "email": "damjan@24setup.com",
+    "url": "https://github.com/dravnjak"
   },
   "contributors": [
     "Mirko Ravnjak <miravnjak@24setup.com>",
     "Marijana Ravnjak <maravnjak@24setup.com>"
   ],
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/dravnjak/dravnjak.github.io.git"
   },
   "bugs": {
-    "url" : "https://github.com/dravnjak/dravnjak.github.io/issues",
-    "email" : "issues@24setup.com"
+    "url": "https://github.com/dravnjak/dravnjak.github.io/issues",
+    "email": "issues@24setup.com"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,17 +1,26 @@
 import React from 'react'
 
+import { createUseStyles } from 'react-jss'
+
+import classNames from 'classnames'
+
 import Header from '../components/Header'
+
 import ContactUs from '../components/ContactUs'
+
 import About from '../components/About'
 
-import './Application.css'
+import styles from './Application.styles.js'
+
+const useStyles = createUseStyles(styles, { name: 'Application' })
 
 function Application() {
+  const classes = useStyles()
   return (
     <div>
-      <div className="hero" style={{ backgroundImage: 'url("hero.png")' }}>
-        <div className="hero-area">
-          <div className="text-right text-area">
+      <div className={classes.hero} style={{ backgroundImage: 'url("hero.png")' }}>
+        <div className={classes.heroArea}>
+          <div className={classNames(classes.textRight, classes.textArea)}>
             <Header />
             <About />
             <ContactUs />

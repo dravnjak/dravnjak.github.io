@@ -8,6 +8,9 @@ export default {
       margin: '0'
     },
   },
+  opacity75: {
+    opacity: '0.75',
+  },
 
   '@media (min-width: 768px)': {
     bottomArea: {

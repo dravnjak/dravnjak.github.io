@@ -12,7 +12,7 @@ const ContactUs = () => {
   return(
     <div className={classes.bottomArea}>
       <h3>Contact us</h3>
-      <p>
+      <p className={classes.opacity75}>
         <a href="mailto:damjan@24setup.com">office@24setup.com</a>
       </p>
     </div>

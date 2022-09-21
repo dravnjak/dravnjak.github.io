@@ -4,7 +4,7 @@ export default {
     bottom: '1rem',
     right: '1rem',
 
-    '& .h3, & .p': {
+    '& h3, & p': {
       margin: '0'
     },
   },
